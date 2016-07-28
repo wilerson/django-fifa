@@ -8,7 +8,7 @@ class Player(models.Model):
     name = models.CharField(u'player name', max_length=255)
     email = models.EmailField(u'e-mail', blank=True, null=True)
     ranking = models.IntegerField(u'ranking', default=1200)
-    victories = models.IntegerField(u'vicotories', default=0)
+    victories = models.IntegerField(u'victories', default=0)
     draws = models.IntegerField(u'draws', default=0)
     losses = models.IntegerField(u'losses', default=0)
 
